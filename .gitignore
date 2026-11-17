@@ -1,0 +1,5 @@
+# Keep the repository to the bundle's source files.
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

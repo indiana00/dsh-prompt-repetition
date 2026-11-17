@@ -1,0 +1,39 @@
+{
+  "name": "@local/dsh-prompt-repetition",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repeats each new user prompt in the model request (3 copies by default), following the Google Research prompt-repetition result for non-reasoning models.",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "indiana00",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiana00/dsh-prompt-repetition.git"
+  },
+  "homepage": "https://github.com/indiana00/dsh-prompt-repetition#readme",
+  "bugs": {
+    "url": "https://github.com/indiana00/dsh-prompt-repetition/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

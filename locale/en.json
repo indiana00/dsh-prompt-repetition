@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt repetition",
+    "description": "Repeats the text of each new user prompt in the model request (three copies by default) following the Google Research prompt-repetition result for non-reasoning models. Prompts containing attachments or longer than the configured cap are sent once."
+  }
+}

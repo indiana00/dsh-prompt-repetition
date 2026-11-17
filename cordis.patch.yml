@@ -1,0 +1,11 @@
+- insert:
+    - id: prompt-repetition
+      name: '@local/dsh-prompt-repetition'
+      config:
+        # Total copies of each new user prompt sent to the model (1 disables).
+        repetitions: 3
+        # Text placed between copies.
+        separator: "\n\n"
+        # User messages with more text characters than this are sent once.
+        # 0 removes the cap.
+        maxTextChars: 12000
